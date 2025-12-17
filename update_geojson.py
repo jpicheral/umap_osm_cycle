@@ -10,17 +10,13 @@ QUERY = """
 [out:json][timeout:125];
 (
   way["highway"="cycleway"]({{bbox}});
-  way["cycleway"]({{bbox}});
-  way["cycleway:left"]({{bbox}});
-  way["cycleway:right"]({{bbox}});
-  way["cycleway:both"]({{bbox}});
   way[highway=path][bicycle=designated]({{bbox}});
 );
-out geom;
+out skel qt;
 """
 
 # Définir une zone géographique (remplacez par les coordonnées souhaitées)
-BBOX = "48.526639171910894,1.8525698326088416,48.865647379541315,2.412872566983842"  # Coordonnées pour Paris-Saclay
+BBOX = "48.64198534659267,2.029034120992455,48.8100213154095,2.346275879889035"  # Coordonnées pour Paris-Saclay
 
 # Fichier de sortie GeoJSON
 OUTPUT_FILE = "data_layer.geojson"
