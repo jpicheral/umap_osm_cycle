@@ -12,7 +12,8 @@ QUERY = """
   way["highway"="cycleway"]({{bbox}});
   way[highway=path][bicycle=designated]({{bbox}});
 );
-out skel qt;
+# out skel qt;
+out geom;
 """
 
 # Définir une zone géographique (remplacez par les coordonnées souhaitées)
