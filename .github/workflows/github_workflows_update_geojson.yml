@@ -1,0 +1,44 @@
+name: Update GeoJSON from Overpass
+
+on:
+  schedule:
+    # Exécution programmée au premier jour du mois à minuit UTC
+    - cron: "0 0 1 * *"
+
+  # Permet d'exécuter l'action manuellement si nécessaire
+  workflow_dispatch:
+
+jobs:
+  update_geojson:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Étape 1 : Vérifier le dépôt
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Étape 2 : Installer Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+
+    # Étape 3 : Installer les dépendances Python
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    # Étape 4 : Exécuter le script Overpass pour générer le fichier GeoJSON
+    - name: Fetch OSM data and generate GeoJSON
+      run: |
+        python update_geojson.py
+
+    # Étape 5 : Committer et pousser le fichier GeoJSON si modifié
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add data_layer.geojson
+        git commit -m "Update GeoJSON layer [$(date)]" || echo "No changes to commit"
+        git push
