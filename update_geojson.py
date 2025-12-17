@@ -22,7 +22,7 @@ out geom;
 BBOX = "48.8566,2.3522,48.9166,2.4222"  # Coordonnées pour Paris
 
 # Fichier de sortie GeoJSON
-OUTPUT_FILE = "cycleways.geojson"
+OUTPUT_FILE = "data_layer.geojson"
 
 def fetch_osm_data():
     """Récupérer les données depuis l'API Overpass."""
