@@ -12,7 +12,6 @@ QUERY = """
   way["highway"="cycleway"]({{bbox}});
   way[highway=path][bicycle=designated]({{bbox}});
 );
-# out skel qt;
 out geom;
 """
 
