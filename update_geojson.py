@@ -7,11 +7,8 @@ OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
 # Requête Overpass pour extraire des pistes cyclables avec divers tags
 QUERY = """
-[out:json][timeout:125];
-(
-  way["highway"="cycleway"]({{bbox}});
-  way[highway=path][bicycle=designated]({{bbox}});
-);
+[out:json][timeout:120];
+way["highway"~"cycleway|path"]["bicycle"~"designated|yes"]({{bbox}});
 out geom;
 """
 
