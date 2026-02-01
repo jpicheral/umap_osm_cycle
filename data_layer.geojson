@@ -1011,13 +1011,39 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "foot": "designated",
                 "highway": "path",
                 "lit": "yes",
                 "name": "Promenade de l'Yvette",
                 "segregated": "no",
                 "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.2518192,
+                        48.7072752
+                    ],
+                    [
+                        2.2513987,
+                        48.7073035
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "foot": "designated",
+                "highway": "path",
+                "layer": "-1",
+                "lit": "yes",
+                "name": "Promenade de l'Yvette",
+                "surface": "concrete",
+                "tunnel": "yes"
             }
         },
         {
@@ -1036,7 +1062,7 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "foot": "designated",
                 "highway": "path",
                 "layer": "-1",
@@ -1538,7 +1564,7 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "foot": "designated",
                 "highway": "path",
                 "lit": "yes",
@@ -1563,7 +1589,7 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "bridge": "yes",
                 "foot": "designated",
                 "highway": "path",
@@ -1847,8 +1873,16 @@
                         48.7123715
                     ],
                     [
+                        2.1914741,
+                        48.7124081
+                    ],
+                    [
                         2.1914678,
                         48.7124118
+                    ],
+                    [
+                        2.1914601,
+                        48.712422
                     ],
                     [
                         2.1914336,
@@ -1984,6 +2018,10 @@
                         48.8079718
                     ],
                     [
+                        2.0441022,
+                        48.8079274
+                    ],
+                    [
                         2.0440939,
                         48.8079189
                     ],
@@ -2012,8 +2050,8 @@
                         48.8071498
                     ],
                     [
-                        2.0428067,
-                        48.807173
+                        2.0429194,
+                        48.8071575
                     ],
                     [
                         2.0425406,
@@ -4955,16 +4993,32 @@
                         48.7034608
                     ],
                     [
+                        2.2593729,
+                        48.7035639
+                    ],
+                    [
+                        2.259075,
+                        48.7036449
+                    ],
+                    [
                         2.2589625,
                         48.7037044
                     ],
                     [
-                        2.2587479,
-                        48.7039706
+                        2.2588283,
+                        48.7038331
                     ],
                     [
-                        2.2585849,
-                        48.7042708
+                        2.2587223,
+                        48.7039677
+                    ],
+                    [
+                        2.2585489,
+                        48.7042123
+                    ],
+                    [
+                        2.2585475,
+                        48.7042723
                     ],
                     [
                         2.2586278,
@@ -8856,8 +8910,8 @@
                         48.7012959
                     ],
                     [
-                        2.1247404,
-                        48.7014003
+                        2.124765,
+                        48.7013955
                     ]
                 ]
             },
@@ -9052,8 +9106,8 @@
                         48.7012959
                     ],
                     [
-                        2.1246359,
-                        48.7012236
+                        2.1246675,
+                        48.7012289
                     ]
                 ]
             },
@@ -9684,6 +9738,32 @@
                 "type": "LineString",
                 "coordinates": [
                     [
+                        2.052518,
+                        48.771629
+                    ],
+                    [
+                        2.0522133,
+                        48.7715337
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "name": "Sentier Gabriel Faure",
+                "segregated": "no",
+                "smoothness": "good",
+                "source": "Bing",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
                         2.0540776,
                         48.7677881
                     ],
@@ -9715,6 +9795,32 @@
                 "highway": "path",
                 "segregated": "no",
                 "source": "Bing"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0529714,
+                        48.7718255
+                    ],
+                    [
+                        2.0528379,
+                        48.7717676
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "name": "Sentier Gabriel Faure",
+                "segregated": "no",
+                "smoothness": "good",
+                "source": "Bing",
+                "surface": "concrete"
             }
         },
         {
@@ -9760,6 +9866,34 @@
                 "smoothness": "intermediate",
                 "source": "Bing",
                 "surface": "ground"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0528379,
+                        48.7717676
+                    ],
+                    [
+                        2.052518,
+                        48.771629
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "layer": "-1",
+                "name": "Sentier Gabriel Faure",
+                "segregated": "no",
+                "smoothness": "good",
+                "source": "Bing",
+                "surface": "concrete",
+                "tunnel": "yes"
             }
         },
         {
@@ -16622,38 +16756,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.0726659,
-                        48.7622543
-                    ],
-                    [
-                        2.0725704,
-                        48.7622816
-                    ],
-                    [
-                        2.0724526,
-                        48.7622949
-                    ],
-                    [
-                        2.072373,
-                        48.7622963
-                    ],
-                    [
-                        2.072288,
-                        48.7623047
-                    ],
-                    [
-                        2.0722063,
-                        48.7623299
-                    ],
-                    [
-                        2.0721562,
-                        48.7623038
-                    ],
-                    [
-                        2.0720268,
-                        48.7622474
-                    ],
-                    [
                         2.0719408,
                         48.7621835
                     ],
@@ -17073,8 +17175,8 @@
                         48.7002876
                     ],
                     [
-                        2.1242546,
-                        48.7002985
+                        2.1242947,
+                        48.7003122
                     ]
                 ]
             },
@@ -17212,8 +17314,8 @@
                         48.7002894
                     ],
                     [
-                        2.1242546,
-                        48.7002985
+                        2.1242947,
+                        48.7003122
                     ]
                 ]
             },
@@ -19418,6 +19520,147 @@
                 "type": "LineString",
                 "coordinates": [
                     [
+                        2.0504979,
+                        48.7702242
+                    ],
+                    [
+                        2.0505111,
+                        48.7702401
+                    ],
+                    [
+                        2.0506733,
+                        48.7703901
+                    ],
+                    [
+                        2.0507204,
+                        48.7704531
+                    ],
+                    [
+                        2.050743,
+                        48.7705126
+                    ],
+                    [
+                        2.0507472,
+                        48.7706019
+                    ],
+                    [
+                        2.0507209,
+                        48.7707947
+                    ],
+                    [
+                        2.0507316,
+                        48.7708522
+                    ],
+                    [
+                        2.0507769,
+                        48.7709093
+                    ],
+                    [
+                        2.0508461,
+                        48.7709536
+                    ],
+                    [
+                        2.0511534,
+                        48.7710813
+                    ],
+                    [
+                        2.0515988,
+                        48.7712662
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
+                "source": "Bing",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0516252,
+                        48.7715358
+                    ],
+                    [
+                        2.0515414,
+                        48.7715425
+                    ],
+                    [
+                        2.0514769,
+                        48.7715628
+                    ],
+                    [
+                        2.0514398,
+                        48.7715932
+                    ],
+                    [
+                        2.0514124,
+                        48.7716366
+                    ],
+                    [
+                        2.0514078,
+                        48.7716711
+                    ],
+                    [
+                        2.0514191,
+                        48.7716973
+                    ],
+                    [
+                        2.051448,
+                        48.7717367
+                    ],
+                    [
+                        2.0514978,
+                        48.7717625
+                    ],
+                    [
+                        2.0515635,
+                        48.7717813
+                    ],
+                    [
+                        2.0516385,
+                        48.7717813
+                    ],
+                    [
+                        2.0517041,
+                        48.7717584
+                    ],
+                    [
+                        2.0517501,
+                        48.7717242
+                    ],
+                    [
+                        2.0517774,
+                        48.7716866
+                    ],
+                    [
+                        2.0517851,
+                        48.7716469
+                    ],
+                    [
+                        2.0517758,
+                        48.7716068
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
                         2.0510956,
                         48.7719727
                     ],
@@ -19430,6 +19673,171 @@
             "properties": {
                 "bicycle": "yes",
                 "highway": "path",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0519566,
+                        48.7709269
+                    ],
+                    [
+                        2.0521424,
+                        48.770946
+                    ],
+                    [
+                        2.0523325,
+                        48.7713831
+                    ],
+                    [
+                        2.0523055,
+                        48.7713894
+                    ],
+                    [
+                        2.0522615,
+                        48.7714836
+                    ],
+                    [
+                        2.0522133,
+                        48.7715337
+                    ],
+                    [
+                        2.0521375,
+                        48.7715732
+                    ],
+                    [
+                        2.052056,
+                        48.7716058
+                    ],
+                    [
+                        2.0519599,
+                        48.7716285
+                    ],
+                    [
+                        2.051877,
+                        48.7716291
+                    ],
+                    [
+                        2.0517758,
+                        48.7716068
+                    ],
+                    [
+                        2.0516915,
+                        48.7715793
+                    ],
+                    [
+                        2.0516252,
+                        48.7715358
+                    ],
+                    [
+                        2.0515718,
+                        48.7714942
+                    ],
+                    [
+                        2.0515461,
+                        48.7714412
+                    ],
+                    [
+                        2.0515444,
+                        48.771376
+                    ],
+                    [
+                        2.0515684,
+                        48.7713064
+                    ],
+                    [
+                        2.0515988,
+                        48.7712662
+                    ],
+                    [
+                        2.0516205,
+                        48.771211
+                    ],
+                    [
+                        2.0516089,
+                        48.7711463
+                    ],
+                    [
+                        2.0515771,
+                        48.7711057
+                    ],
+                    [
+                        2.0515305,
+                        48.7710655
+                    ],
+                    [
+                        2.051468,
+                        48.7710363
+                    ],
+                    [
+                        2.0513962,
+                        48.771022
+                    ],
+                    [
+                        2.0513321,
+                        48.7710221
+                    ],
+                    [
+                        2.0512619,
+                        48.7710326
+                    ],
+                    [
+                        2.0512033,
+                        48.7710537
+                    ],
+                    [
+                        2.0511534,
+                        48.7710813
+                    ],
+                    [
+                        2.0511074,
+                        48.7711161
+                    ],
+                    [
+                        2.0510402,
+                        48.7712678
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
+                "source": "Bing",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0514191,
+                        48.7716973
+                    ],
+                    [
+                        2.0510956,
+                        48.7719727
+                    ],
+                    [
+                        2.0509995,
+                        48.7720633
+                    ],
+                    [
+                        2.0509713,
+                        48.7720899
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
                 "source": "Bing"
             }
         },
@@ -21662,12 +22070,12 @@
                         48.6968539
                     ],
                     [
-                        2.0592883,
-                        48.6964629
+                        2.0593071,
+                        48.6966134
                     ],
                     [
-                        2.0591801,
-                        48.6961498
+                        2.0591667,
+                        48.6961994
                     ],
                     [
                         2.0590591,
@@ -25774,10 +26182,6 @@
                     [
                         2.2223133,
                         48.7186428
-                    ],
-                    [
-                        2.222273,
-                        48.7186788
                     ]
                 ]
             },
@@ -27084,6 +27488,81 @@
                 "highway": "path",
                 "source": "survey",
                 "surface": "dirt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.3129686,
+                        48.7539979
+                    ],
+                    [
+                        2.3130463,
+                        48.7539459
+                    ],
+                    [
+                        2.3136931,
+                        48.7540647
+                    ],
+                    [
+                        2.3145134,
+                        48.7542157
+                    ],
+                    [
+                        2.3146144,
+                        48.7542351
+                    ],
+                    [
+                        2.3149463,
+                        48.7543015
+                    ],
+                    [
+                        2.315925,
+                        48.7544969
+                    ],
+                    [
+                        2.3166933,
+                        48.7546464
+                    ],
+                    [
+                        2.3181065,
+                        48.7549026
+                    ],
+                    [
+                        2.3186942,
+                        48.755011
+                    ],
+                    [
+                        2.3188442,
+                        48.7550047
+                    ],
+                    [
+                        2.3196974,
+                        48.7548269
+                    ],
+                    [
+                        2.3199472,
+                        48.7547765
+                    ],
+                    [
+                        2.3199977,
+                        48.7548197
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "yes",
+                "highway": "cycleway",
+                "lit": "yes",
+                "note": "pseudo piste cyclable sur trottoir ; highway=cycleway foot=yes",
+                "oneway": "yes",
+                "oneway:bicycle": "yes",
+                "segregated": "no",
+                "surface": "asphalt"
             }
         },
         {
@@ -29938,8 +30417,10 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-18",
                 "crossing:island": "yes",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "cycleway:width": "2",
                 "foot": "designated",
                 "footway:surface": "asphalt",
@@ -30616,6 +31097,10 @@
                         48.6777949
                     ],
                     [
+                        2.3017592,
+                        48.6772471
+                    ],
+                    [
                         2.3016929,
                         48.6771686
                     ],
@@ -30967,7 +31452,9 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-17",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
                 "footway:surface": "asphalt",
                 "highway": "path",
@@ -31142,10 +31629,13 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-18",
                 "crossing": "traffic_signals",
                 "crossing:island": "yes",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
+                "footway:surface": "asphalt",
                 "highway": "path",
                 "lit": "yes",
                 "name": "Avenue de Saint-Cloud",
@@ -32820,27 +33310,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1919987,
-                        48.712674
-                    ],
-                    [
-                        2.1917532,
-                        48.7126971
-                    ]
-                ]
-            },
-            "properties": {
-                "bicycle": "yes",
-                "highway": "path",
-                "surface": "concrete"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
                         2.2280383,
                         48.701065
                     ],
@@ -33217,6 +33686,7 @@
             "properties": {
                 "bicycle": "yes",
                 "highway": "path",
+                "lit": "yes",
                 "note": "Path remplace footway car accessible vélo",
                 "surface": "compacted"
             }
@@ -36247,7 +36717,7 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "foot": "designated",
                 "highway": "path",
                 "lit": "yes",
@@ -39239,6 +39709,10 @@
                     [
                         2.1427976,
                         48.7613696
+                    ],
+                    [
+                        2.1428256,
+                        48.7611936
                     ],
                     [
                         2.1429145,
@@ -44195,8 +44669,10 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-17",
                 "crossing": "traffic_signals",
                 "crossing:island": "yes",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
                 "footway:surface": "asphalt",
                 "highway": "path",
@@ -44229,11 +44705,13 @@
             },
             "properties": {
                 "bicycle": "designated",
-                "check_date:surface": "2024-01-15",
+                "check_date:surface": "2026-01-17",
                 "crossing": "traffic_signals",
                 "crossing:island": "yes",
+                "cycleway:surface": "asphalt",
                 "cycleway:width": "2",
                 "foot": "designated",
+                "footway:surface": "asphalt",
                 "highway": "path",
                 "lit": "yes",
                 "path": "crossing",
@@ -45722,10 +46200,6 @@
                     [
                         2.0822138,
                         48.7451319
-                    ],
-                    [
-                        2.0823344,
-                        48.7451057
                     ]
                 ]
             },
@@ -49906,56 +50380,56 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1242546,
-                        48.7002985
+                        2.1242947,
+                        48.7003122
                     ],
                     [
-                        2.1242841,
-                        48.7003134
+                        2.1243331,
+                        48.7003339
                     ],
                     [
-                        2.1243544,
-                        48.7003673
+                        2.1243615,
+                        48.7003563
                     ],
                     [
-                        2.1243839,
-                        48.7004271
+                        2.1244115,
+                        48.7004235
                     ],
                     [
-                        2.1244088,
-                        48.7005694
+                        2.1244288,
+                        48.7005357
                     ],
                     [
-                        2.1244383,
-                        48.7006457
+                        2.1244614,
+                        48.7006371
                     ],
                     [
-                        2.1244769,
-                        48.7007235
+                        2.1244962,
+                        48.7007038
                     ],
                     [
-                        2.1245427,
-                        48.7008238
+                        2.1245565,
+                        48.7008021
                     ],
                     [
-                        2.124588,
-                        48.7009107
+                        2.1246099,
+                        48.7008959
                     ],
                     [
-                        2.1246153,
-                        48.700978
+                        2.1246438,
+                        48.7009672
                     ],
                     [
-                        2.1246243,
-                        48.7010649
+                        2.1246551,
+                        48.7010534
                     ],
                     [
-                        2.1246289,
-                        48.7011502
+                        2.1246565,
+                        48.7011526
                     ],
                     [
-                        2.1246359,
-                        48.7012236
+                        2.1246675,
+                        48.7012289
                     ]
                 ]
             },
@@ -52012,8 +52486,10 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-18",
                 "crossing:island": "no",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
                 "footway:surface": "asphalt",
                 "highway": "path",
@@ -53727,6 +54203,10 @@
                         48.7746399
                     ],
                     [
+                        2.0417628,
+                        48.7746501
+                    ],
+                    [
                         2.0417376,
                         48.7746517
                     ],
@@ -53739,8 +54219,8 @@
                         48.7746744
                     ],
                     [
-                        2.0415496,
-                        48.7747055
+                        2.041559,
+                        48.7746903
                     ],
                     [
                         2.0415179,
@@ -56651,76 +57131,80 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1247404,
-                        48.7014003
+                        2.124765,
+                        48.7013955
                     ],
                     [
-                        2.124799,
-                        48.7014975
+                        2.1248281,
+                        48.701501
                     ],
                     [
-                        2.1248489,
-                        48.7016112
+                        2.1248655,
+                        48.7015778
                     ],
                     [
-                        2.1248784,
-                        48.7017205
+                        2.1248956,
+                        48.7016781
                     ],
                     [
-                        2.1249101,
-                        48.7018747
+                        2.1249224,
+                        48.7018154
                     ],
                     [
-                        2.124901,
-                        48.7019915
+                        2.1249369,
+                        48.7019089
                     ],
                     [
-                        2.1248574,
-                        48.7020374
+                        2.1249065,
+                        48.7020053
                     ],
                     [
-                        2.124799,
-                        48.7020857
+                        2.1248835,
+                        48.7020476
                     ],
                     [
-                        2.124672,
-                        48.7021756
+                        2.1248067,
+                        48.7021008
                     ],
                     [
-                        2.1242614,
-                        48.7024436
+                        2.1246722,
+                        48.7021953
                     ],
                     [
-                        2.1241072,
-                        48.7025244
+                        2.1242891,
+                        48.7024417
                     ],
                     [
-                        2.1238985,
-                        48.7025962
+                        2.124087,
+                        48.7025458
                     ],
                     [
-                        2.123497,
-                        48.7026801
+                        2.1238776,
+                        48.7026139
                     ],
                     [
-                        2.1231772,
-                        48.7027429
+                        2.1234653,
+                        48.7026984
                     ],
                     [
-                        2.1230298,
-                        48.7027759
+                        2.1231,
+                        48.7027657
                     ],
                     [
-                        2.1229368,
-                        48.7028238
+                        2.1230098,
+                        48.702804
                     ],
                     [
-                        2.1228257,
-                        48.7029211
+                        2.1229195,
+                        48.7028613
                     ],
                     [
-                        2.1226918,
-                        48.7030318
+                        2.1227809,
+                        48.7029841
+                    ],
+                    [
+                        2.1226555,
+                        48.7030658
                     ],
                     [
                         2.1225693,
@@ -57920,9 +58404,10 @@
             },
             "properties": {
                 "bicycle": "designated",
-                "check_date:surface": "2024-01-15",
+                "check_date:surface": "2026-01-17",
                 "crossing": "traffic_signals",
                 "crossing:island": "yes",
+                "cycleway:surface": "asphalt",
                 "cycleway:width": "2",
                 "foot": "designated",
                 "footway:surface": "asphalt",
@@ -61187,8 +61672,8 @@
                         48.7873032
                     ],
                     [
-                        2.0413921,
-                        48.7872773
+                        2.0414053,
+                        48.7872807
                     ]
                 ]
             },
@@ -64776,12 +65261,12 @@
                         48.7292099
                     ],
                     [
-                        2.1661882,
-                        48.7292425
+                        2.1662539,
+                        48.7292558
                     ],
                     [
-                        2.1661307,
-                        48.7292618
+                        2.166124,
+                        48.7292945
                     ]
                 ]
             },
@@ -64801,16 +65286,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1653991,
-                        48.729423
+                        2.1653924,
+                        48.7294557
                     ],
                     [
-                        2.1653261,
-                        48.7294328
-                    ],
-                    [
-                        2.1649906,
-                        48.7295327
+                        2.1650858,
+                        48.7295053
                     ],
                     [
                         2.1647546,
@@ -65119,12 +65600,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1661307,
-                        48.7292618
+                        2.166124,
+                        48.7292945
                     ],
                     [
-                        2.1653991,
-                        48.729423
+                        2.1653924,
+                        48.7294557
                     ]
                 ]
             },
@@ -66290,10 +66771,6 @@
                     [
                         2.257945,
                         48.7270715
-                    ],
-                    [
-                        2.2580041,
-                        48.7271572
                     ]
                 ]
             },
@@ -70840,16 +71317,20 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.1246359,
-                        48.7012236
+                        2.1246675,
+                        48.7012289
                     ],
                     [
-                        2.1246674,
-                        48.7012954
+                        2.1246895,
+                        48.7012888
                     ],
                     [
-                        2.1247404,
-                        48.7014003
+                        2.1247402,
+                        48.7013701
+                    ],
+                    [
+                        2.124765,
+                        48.7013955
                     ]
                 ]
             },
@@ -71561,10 +72042,13 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-10",
                 "crossing": "marked",
                 "crossing:markings": "yes",
                 "cycleway": "crossing",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
+                "footway:surface": "asphalt",
                 "highway": "cycleway",
                 "segregated": "yes",
                 "surface": "asphalt"
@@ -71880,8 +72364,10 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-17",
                 "crossing:island": "no",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
                 "footway:surface": "asphalt",
                 "highway": "path",
@@ -79742,10 +80228,6 @@
                     [
                         2.0709774,
                         48.7556082
-                    ],
-                    [
-                        2.0710062,
-                        48.7555983
                     ]
                 ]
             },
@@ -80316,6 +80798,10 @@
                         48.7900947
                     ],
                     [
+                        2.0339837,
+                        48.7899061
+                    ],
+                    [
                         2.034246,
                         48.7898403
                     ]
@@ -80703,10 +81189,13 @@
             },
             "properties": {
                 "bicycle": "designated",
+                "check_date:surface": "2026-01-18",
                 "crossing": "traffic_signals",
                 "crossing:island": "yes",
                 "crossing:markings": "zebra",
+                "cycleway:surface": "asphalt",
                 "foot": "designated",
+                "footway:surface": "asphalt",
                 "highway": "path",
                 "lit": "yes",
                 "name": "Avenue de Saint-Cloud",
@@ -81720,6 +82209,54 @@
             "properties": {
                 "bicycle": "yes",
                 "highway": "path"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0510689,
+                        48.7707622
+                    ],
+                    [
+                        2.0507204,
+                        48.7704531
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0519566,
+                        48.7709269
+                    ],
+                    [
+                        2.0510689,
+                        48.7707622
+                    ],
+                    [
+                        2.0509207,
+                        48.770772
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "yes",
+                "highway": "path",
+                "smoothness": "intermediate",
+                "surface": "concrete"
             }
         },
         {
@@ -83456,7 +83993,7 @@
                 ]
             },
             "properties": {
-                "bicycle": "designated",
+                "bicycle": "yes",
                 "foot": "designated",
                 "highway": "path",
                 "name": "Promenade de l'Yvette",
@@ -90443,31 +90980,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.0394881,
-                        48.7044976
-                    ],
-                    [
-                        2.0394479,
-                        48.7044142
-                    ],
-                    [
-                        2.0394276,
-                        48.704372
-                    ]
-                ]
-            },
-            "properties": {
-                "bicycle": "designated",
-                "foot": "designated",
-                "highway": "path"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
                         2.0568136,
                         48.7749539
                     ],
@@ -90583,6 +91095,349 @@
                 "source": "BDOrtho IGN",
                 "source:date": "2014",
                 "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.2472408,
+                        48.7767779
+                    ],
+                    [
+                        2.2472857,
+                        48.776933
+                    ],
+                    [
+                        2.2473178,
+                        48.7770412
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "segregated": "no",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.247535,
+                        48.776742
+                    ],
+                    [
+                        2.2475195,
+                        48.7767789
+                    ],
+                    [
+                        2.2475047,
+                        48.7768142
+                    ],
+                    [
+                        2.2474712,
+                        48.7768354
+                    ],
+                    [
+                        2.2474766,
+                        48.7768655
+                    ],
+                    [
+                        2.2474712,
+                        48.7768902
+                    ],
+                    [
+                        2.2474256,
+                        48.7769114
+                    ],
+                    [
+                        2.2473934,
+                        48.7769238
+                    ],
+                    [
+                        2.2473116,
+                        48.7769309
+                    ],
+                    [
+                        2.2472857,
+                        48.776933
+                    ],
+                    [
+                        2.2472459,
+                        48.7769362
+                    ],
+                    [
+                        2.2471949,
+                        48.7769433
+                    ],
+                    [
+                        2.2471534,
+                        48.7769433
+                    ],
+                    [
+                        2.2471402,
+                        48.7769106
+                    ],
+                    [
+                        2.2470229,
+                        48.7768507
+                    ],
+                    [
+                        2.2469964,
+                        48.7768077
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "segregated": "no",
+                "surface": "concrete"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0822138,
+                        48.7451319
+                    ],
+                    [
+                        2.0823344,
+                        48.7451057
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "lit": "no",
+                "note": "Enrobé refait début 2025",
+                "oneway": "no",
+                "segregated": "no",
+                "smoothness": "excellent",
+                "surface": "asphalt",
+                "width": "2.9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.270957,
+                        48.7825597
+                    ],
+                    [
+                        2.2710996,
+                        48.7816141
+                    ],
+                    [
+                        2.2711101,
+                        48.7815442
+                    ],
+                    [
+                        2.2711489,
+                        48.7814288
+                    ],
+                    [
+                        2.2711774,
+                        48.7813442
+                    ],
+                    [
+                        2.2711895,
+                        48.7813081
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "name": "Allée François Peatrik",
+                "segregated": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.257945,
+                        48.7270715
+                    ],
+                    [
+                        2.2580041,
+                        48.7271572
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "footway:surface": "asphalt",
+                "highway": "path",
+                "path": "crossing",
+                "segregated": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.2223133,
+                        48.7186428
+                    ],
+                    [
+                        2.222273,
+                        48.7186788
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "highway:cycle": "unclassified",
+                "lcn_ref": "35",
+                "name": "Massy - Saclay",
+                "note": "panneaux voie verte",
+                "segregated": "no",
+                "surface": "asphalt",
+                "traffic_sign": "FR:C115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0722063,
+                        48.7623299
+                    ],
+                    [
+                        2.0721562,
+                        48.7623038
+                    ],
+                    [
+                        2.0720268,
+                        48.7622474
+                    ],
+                    [
+                        2.0719408,
+                        48.7621835
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "segregated": "no",
+                "source": "BDOrtho IGN",
+                "source:date": "2014",
+                "surface": "asphalt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0726659,
+                        48.7622543
+                    ],
+                    [
+                        2.0725704,
+                        48.7622816
+                    ],
+                    [
+                        2.0724526,
+                        48.7622949
+                    ],
+                    [
+                        2.072373,
+                        48.7622963
+                    ],
+                    [
+                        2.072288,
+                        48.7623047
+                    ],
+                    [
+                        2.0722063,
+                        48.7623299
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "segregated": "no",
+                "source": "BDOrtho IGN",
+                "source:date": "2014",
+                "surface": "asphalt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.0709774,
+                        48.7556082
+                    ],
+                    [
+                        2.0710062,
+                        48.7555983
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path",
+                "segregated": "no",
+                "surface": "asphalt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.167534,
+                        48.7287954
+                    ],
+                    [
+                        2.167508,
+                        48.7287646
+                    ]
+                ]
+            },
+            "properties": {
+                "bicycle": "designated",
+                "foot": "designated",
+                "highway": "path"
             }
         }
     ]
